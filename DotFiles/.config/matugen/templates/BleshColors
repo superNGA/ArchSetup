@@ -1,0 +1,84 @@
+# These are the colors that matugen will generate.
+#
+# color1 = '{{colors.primary_fixed_dim.default.hex}}'
+# color2 = '{{colors.on_primary.default.hex}}'
+# color3 = '{{colors.on_surface_variant.default.hex}}'
+# color4 = '{{colors.surface_container.default.hex}}'
+# color5 = '{{colors.on_primary.default.hex}}'
+# color6 = '{{colors.surface_dim.default.hex}}'
+# color7 = '{{colors.surface.default.hex}}'
+# color8 = '{{colors.primary.default.hex}}'
+# color9 = '{{colors.tertiary.default.hex}}'
+
+ble-face argument_error=fg=black
+ble-face argument_option=fg=teal
+ble-face auto_complete=fg={{colors.tertiary.default.hex}},bold
+ble-face cmdinfo_cd_cdpath=fg=26
+ble-face command_alias=fg=teal
+ble-face command_builtin=fg=red
+ble-face command_builtin_dot=fg=red,bold
+ble-face command_directory=fg=33
+ble-face command_file=fg=green
+ble-face command_function=fg=99
+ble-face command_jobs=fg=red,bold
+ble-face command_keyword=fg=blue
+ble-face command_suffix=fg=231
+ble-face command_suffix_new=fg=231
+ble-face disabled=fg=242
+ble-face filename_block=fg=yellow
+ble-face filename_character=fg=231
+ble-face filename_directory=fg=33
+ble-face filename_directory_sticky=fg=231
+ble-face filename_executable=fg=green
+ble-face filename_link=fg=teal
+ble-face filename_orphan=fg=16
+ble-face filename_pipe=fg=lime
+ble-face filename_setgid=fg=black
+ble-face filename_setuid=fg=black
+ble-face filename_socket=fg=cyan
+ble-face filename_url=fg=blue
+ble-face filename_warning=fg=red
+ble-face menu_complete_match=bold
+ble-face menu_complete_selected=reverse
+ble-face menu_desc_default=none
+ble-face menu_desc_quote=ref:syntax_quoted
+ble-face menu_desc_type=ref:syntax_delimiter
+ble-face menu_filter_fixed=bold
+ble-face menu_filter_input=fg=16
+ble-face overwrite_mode=fg=black
+ble-face prompt_status_line=fg=231
+ble-face region=fg=231
+ble-face region_insert=fg=27
+ble-face region_match=fg=231
+ble-face region_target=fg=black
+ble-face syntax_brace=fg=37,bold
+ble-face syntax_command=fg=brown
+ble-face syntax_comment=fg=242
+ble-face syntax_default=none
+ble-face syntax_delimiter=bold
+ble-face syntax_document=fg=100
+ble-face syntax_document_begin=fg=100,bold
+ble-face syntax_error=fg=231
+ble-face syntax_escape=fg=magenta
+ble-face syntax_expr=fg=33
+ble-face syntax_function_name=fg=99,bold
+ble-face syntax_glob=fg=198,bold
+ble-face syntax_history_expansion=fg=231
+ble-face syntax_param_expansion=fg=133
+ble-face syntax_quotation=fg=green,bold
+ble-face syntax_quoted=fg=green
+ble-face syntax_tilde=fg=63,bold
+ble-face syntax_varname=fg=orange
+ble-face varname_array=fg=orange,bold
+ble-face varname_empty=fg=31
+ble-face varname_export=fg=200,bold
+ble-face varname_expr=fg=99,bold
+ble-face varname_hash=fg=70,bold
+ble-face varname_new=fg=34
+ble-face varname_number=fg=64
+ble-face varname_readonly=fg=200
+ble-face varname_transform=fg=29,bold
+ble-face varname_unset=fg=245
+ble-face vbell=reverse
+ble-face vbell_erase=bg=252
+ble-face vbell_flash=fg=green,reverse

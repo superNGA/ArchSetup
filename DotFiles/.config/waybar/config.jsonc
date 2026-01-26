@@ -1,0 +1,64 @@
+{
+    "layer": "top",
+    "position": "top",
+
+    // Modules...
+    "modules-left":   ["clock", "wlr/taskbar"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right":  ["cpu", "memory", "pulseaudio", "tray"],
+
+
+    "pulseaudio": 
+    {
+        "format": "{volume}% {icon}",
+        "format-muted": "Muted {icon}",
+        "format-icons": {
+            "default": [""]
+        },
+        "scroll-step": 5,
+        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+        "on-click-right": "pavucontrol",
+        "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
+        "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%",
+        "max-volume": 100,
+        "tooltip": false
+    },
+
+
+    "wlr/taskbar": 
+    {
+        "format": "{icon}",
+        "icon-size": 18,
+        "spacing": 6,
+        "on-click": "activate",
+        "on-click-middle": "close",
+        "tooltip-format": "{title}"
+    },   
+
+
+    // Work spaces...
+    "hyprland/workspaces": 
+    {
+        "disable-scroll": true,
+        "all-outputs":    true,
+        "format":         "{icon}",
+        "on-click":       "activate",
+    },
+
+
+    // Clock config...
+    "clock": 
+    {
+        "format": "{:%a %d %b  %I:%M %p}",
+    },
+
+
+    "cpu": {
+        "format": "CPU : {usage}%"
+    },
+
+    "memory":
+    {
+        "format": "RAM : {used:0.1f}G",
+    },
+}

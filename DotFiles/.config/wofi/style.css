@@ -1,0 +1,63 @@
+@import url("/home/insane/.config/wofi/colors.css");
+
+* {
+    font-family: 'JetBrainsMono Nerd Font', monospace;
+    font-size: 14px;
+}
+
+/* Window */
+window {
+    margin: 0px;
+    padding: 10px;
+    border: 1px solid @tertiary_container;
+    border-radius: 10px;
+    background-color: @tertiary_container;
+}
+
+/* Inner Box */
+#inner-box {
+    margin: 5px 20px;
+    padding: 10px;
+    border: 1px solid @on_tertiary;
+    border-radius: 5px;
+    background-color: @on_tertiary;
+}
+
+/* Outer Box */
+#outer-box {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    background-color: @tertiary_container;
+}
+
+/* Input */
+#input {
+    margin: 5px 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: @tertiary;
+    background-color: @on_tertiary;
+}
+
+/* Text */
+#text {
+    margin: 5px;
+    border: none;
+    color: @tertiary;
+}
+
+#entry {
+    background-color: transparent;
+}
+
+/* Selected Entry */
+#entry:selected {
+    background-color: @tertiary_container;
+    border-radius: 5px;
+}
+
+#entry:selected #text {
+    color: @tertiary;
+}
